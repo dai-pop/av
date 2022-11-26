@@ -154,3 +154,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 parse_dict/EIJIRO-1448.TXT
+mp4
+key.json
+exp
+desc.txt
