@@ -55,6 +55,8 @@ for line in source:
     else:
         description = m.group("description")
 
+    description = re.sub( r'■.*', '', description )
+
     m = re.search(r"【変化】(?P<infected>.*?)[【\n]", line)
     if m:
         infected_forms = deal_doublechar( re.findall( r'[a-zA-Z\(\)]+', m.group('infected') ) )
